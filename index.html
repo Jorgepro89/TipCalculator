@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <div class="text1" style="text-align: center;">
+            <img src="IMG/logo.svg" style="margin-top: 60px;">
+
+        </div>
+        <form id="calculadora">
+            <div class="cuadrofondo">
+
+                <h5 class="textgris" style="left: 40px; top:10px;">
+                    Bill
+                </h5>
+                <input class="formato1 " type="number " name="Bill " id="Bill" placeholder="0 " style="top: 55px; left: 40px; ">
+
+
+                <h5 class="textgris" style="left: 40px; top:100px">
+                    Select Tip %
+                </h5>
+                <button type="button" onclick="cinco();" class="porcentajes" style="left: 40px; top:160px">
+                    5%
+                </button>
+
+                <button type="button" onclick="diez();" class="porcentajes" style="left: 150px; top:160px">
+                    10%
+                </button>
+
+                <button type="button" onclick="quince();" class="porcentajes" style="left: 260px; top:160px">
+                    15%
+                </button>
+
+                <button type="button" onclick="vecinco();" class="porcentajes" style="left: 40px; top:210px">
+                    25%
+                </button>
+
+                <button type="button" onclick="cicuenta();" class="porcentajes" style="left: 150px; top:210px">
+                    50%
+                </button>
+
+                <input class="custom" type="number " name="Custom " id="Custom" placeholder="Custom" oninput="custom();" style="left: 260px; top:210px; ">
+
+
+
+                <h5 class="textgris" style="left: 40px; top:270px">
+                    Number of People
+                </h5>
+                <input class="formato1 " type="number " name="NumOfPeople " id="NumOfPeople" placeholder="0 " style="top: 320px; left: 40px; ">
+
+
+
+                <div class="cuadroderecho">
+
+                    <h5 class="textblanco" style="left: 35px; top: 30px">
+                        Tip Amount
+                    </h5>
+                    <h6 class="textabajo" style="left: 35px; top:50px;">
+                        / person
+                    </h6>
+
+                    <h5 class="textblanco" style="left: 35px; top: 120px">
+                        Total
+                    </h5>
+                    <h6 class="textabajo" style="left: 35px; top:140px;">
+                        / person
+                    </h6>
+
+                    <p class="resultado1">
+                        <span id="resultado1">
+                            $0.00
+                    </span>
+                    </p>
+
+                    <p class="resultado2">
+                        <span id="resultado2" max="3;">
+                        $0.00
+                    </span>
+                    </p>
+
+                    <button onclick="limpiar();" class="boton_reset">
+                        RESET
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+<script src="JS/cal.js " charset="utf-8 "></script>
+
+</html>

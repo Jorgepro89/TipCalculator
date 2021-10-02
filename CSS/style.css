@@ -1,0 +1,148 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.textgris {
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    font-weight: 700;
+    position: absolute;
+}
+
+.textblanco {
+    font-family: 'Space Mono', monospace;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    position: absolute;
+}
+
+.textabajo {
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 86%, 29%);
+    font-weight: 700;
+    position: absolute;
+}
+
+div.text1 {
+    position: absolute;
+    left: 50%;
+}
+
+div.cuadrofondo {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    top: 180px;
+    left: 25%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.cuadroderecho {
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    left: 420px;
+    top: 20px;
+}
+
+.formato1 {
+    width: 330px;
+    height: 40px;
+    background-color: #F0F8F9;
+    color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+}
+
+.formato1:hover {
+    border: 3px solid hsl(183, 83%, 33%);
+}
+
+button.boton_reset {
+    background-color: hsl(183, 93%, 22%);
+    color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-weight: 700;
+    bottom: 30px;
+    left: 35px;
+    width: 290px;
+    height: 50px;
+    border: 0px;
+    transition: 0s;
+    font-size: 15px;
+}
+
+button.boton_reset:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+button.porcentajes {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    transition: 0s;
+    font-size: 20px;
+}
+
+button.porcentajes:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.custom {
+    width: 100px;
+    height: 40px;
+    background-color: #F0F8F9;
+    color: hsl(184, 14%, 56%);
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    border: 0px;
+}
+
+.custom:hover {
+    border: 3px solid hsl(183, 83%, 33%);
+}
+
+.resultado1 {
+    color: hsl(172, 67%, 45%);
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-weight: 700;
+    right: 35px;
+    font-size: 40px;
+    background-color: none;
+}
+
+.resultado2 {
+    color: hsl(172, 67%, 45%);
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-weight: 700;
+    top: 90px;
+    right: 35px;
+    font-size: 40px;
+}
